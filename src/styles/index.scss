@@ -1,0 +1,23 @@
+html {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@import "_cdn.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+@import url(./header.scss);
+@import url(./banner.scss);
+@import url(./features.scss);
+@import url(./testimonials.scss);
+@import url(./footer.scss);
+@import url(./download.scss);
+@import url(./our-team.scss);
+@import url(./work.scss);

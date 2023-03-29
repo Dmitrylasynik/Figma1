@@ -1,0 +1,218 @@
+@import "_cdn.scss";
+
+@mixin headerlink {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin banner-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin banner-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin features-card-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+
+@mixin features-card-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C7279;
+}
+
+@mixin testh2 {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+@mixin card1-h5-1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin card1-h5-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@mixin card2-h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin card3-h5-1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin card3-h5-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@mixin color2-h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #808080;
+}
+
+@mixin container-h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+@mixin container-h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+@mixin container-button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin our-team-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #2D3033;
+}
+
+@mixin our-team-title2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FF4343;
+
+}
+
+@mixin our-team-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6C7279;
+}
+
+@mixin slide-h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin card-hover-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin card-hover-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}

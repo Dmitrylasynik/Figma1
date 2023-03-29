@@ -1,0 +1,99 @@
+@import "_mixins.scss";
+@import "_cdn.scss";
+@import "_variables.scss";
+
+.download {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.download-container {
+    height: 224px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 1024px) {
+        width: 984px;
+        height: 204px;
+    }
+
+    @media (max-width: 320px) {
+        width: 280px;
+        height: 204px;
+    }
+
+    .container-h3 {
+        width: 1170px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include container-h3;
+
+        @media (max-width: 1024px) {
+            width: 984px;
+            height: 60px;
+            font-size: 24px;
+        }
+
+        @media (max-width: 320px) {
+            width: 320px;
+            height: 80px;
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 3px;
+        }
+    }
+
+    .container-h5 {
+        width: 1170px;
+        height: 21px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include container-h5;
+        margin-bottom: 50px;
+
+        @media (max-width: 1024px) {
+            width: 984px;
+            height: 16px;
+            margin-bottom: 45px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 320px) {
+            width: 280px;
+            height: 30px;
+            font-size: 13px;
+            margin-bottom: 13px;
+        }
+    }
+
+    .container-button {
+        width: 370px;
+        height: 70px;
+        @include container-button;
+        background-color: #FF4343;
+        border: #FF4343;
+
+        @media (max-width: 1024px) {
+            width: 314px;
+            height: 80px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 320px) {
+            width: 278.25px;
+            height: 77.58px;
+            font-size: 18px;
+        }
+    }
+}
