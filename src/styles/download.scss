@@ -95,5 +95,19 @@
             height: 77.58px;
             font-size: 18px;
         }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        &:hover{
+            background: #E71414;
+            cursor: pointer;
+        }
+
+        &:active{
+            background: #E71414;
+            box-shadow: 4px 4px 30px #FF4343;
+        }
     }
 }
